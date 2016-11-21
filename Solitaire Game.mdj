@@ -44560,7 +44560,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFYKslXZkL50eM="
 					},
-					"name": "Move-SequenceDiagram",
+					"name": "Sequence Diagrams",
 					"ownedElements": [
 						{
 							"_type": "UMLSequenceDiagram",
@@ -44662,7 +44662,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Move-SequenceDiagram)",
+													"text": "(from Sequence Diagrams)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -44860,7 +44860,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Move-SequenceDiagram)",
+													"text": "(from Sequence Diagrams)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -45058,7 +45058,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Move-SequenceDiagram)",
+													"text": "(from Sequence Diagrams)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -45757,7 +45757,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Move-SequenceDiagram)",
+													"text": "(from Sequence Diagrams)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
