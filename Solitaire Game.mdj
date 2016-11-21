@@ -44560,7 +44560,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFYKslXZkL50eM="
 					},
-					"name": "Sequence Diagrams",
+					"name": "Move-SequenceDiagram",
 					"ownedElements": [
 						{
 							"_type": "UMLSequenceDiagram",
@@ -44658,11 +44658,11 @@
 													"containerExtending": false,
 													"left": 464,
 													"top": 112,
-													"width": 155,
+													"width": 180,
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Sequence Diagrams)",
+													"text": "(from Move-SequenceDiagram)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -44856,11 +44856,11 @@
 													"containerExtending": false,
 													"left": 352,
 													"top": 112,
-													"width": 155,
+													"width": 180,
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Sequence Diagrams)",
+													"text": "(from Move-SequenceDiagram)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -45054,11 +45054,11 @@
 													"containerExtending": false,
 													"left": 240,
 													"top": 112,
-													"width": 155,
+													"width": 180,
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Sequence Diagrams)",
+													"text": "(from Move-SequenceDiagram)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -45753,11 +45753,11 @@
 													"containerExtending": false,
 													"left": 448,
 													"top": 112,
-													"width": 155,
+													"width": 180,
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "(from Sequence Diagrams)",
+													"text": "(from Move-SequenceDiagram)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
