@@ -16618,6 +16618,7 @@
 								"$ref": "AAAAAAFYwZh9tO0vQ7o="
 							},
 							"name": "Solitaire Communication",
+							"documentation": "The communication diagram that shows communication between all the classes available in the Solitaire game. The sequences in this diagram are irrelevant and should not be considered. The diagram shows which objects collaborate with whom during the course of the game in real-time.",
 							"visible": true,
 							"defaultDiagram": false,
 							"ownedViews": [
@@ -25862,6 +25863,7 @@
 								"$ref": "AAAAAAFYwZh9tO0vQ7o="
 							},
 							"name": "Move Card",
+							"documentation": "Communication diagram that shows the collaboration between objects when a \"move\" happens. These are the objects that collaborate together to make a move.",
 							"visible": true,
 							"defaultDiagram": false,
 							"ownedViews": [
