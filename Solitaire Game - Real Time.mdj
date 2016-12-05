@@ -29637,3568 +29637,3581 @@
 							"isMultiInstance": false
 						}
 					]
+				},
+				{
+					"_type": "UMLSubsystem",
+					"_id": "AAAAAAFYzREvhzlQEoc=",
+					"_parent": {
+						"$ref": "AAAAAAFYKslXZkL50eM="
+					},
+					"name": "Roles",
+					"visibility": "public",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYKsvOrEN3RBk=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Deck",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYKs/5nUZU3pE=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKs/5nUZVpfY=",
+										"_parent": {
+											"$ref": "AAAAAAFYKs/5nUZU3pE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKs/5nUZWWkQ=",
+										"_parent": {
+											"$ref": "AAAAAAFYKs/5nUZU3pE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK8E7VbmlIM4=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8E7Vbmmttg=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8E7VbmlIM4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8E7VbmnOP0=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8E7VbmlIM4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK8Ip1cfHizU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8Ip1sfIpDc=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8Ip1cfHizU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8Ip1sfJoKc=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8Ip1cfHizU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK9ztcscg8O8=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9ztcschy1Q=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9ztcscg8O8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9ztcscimgE=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9ztcscg8O8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO5By03rsTDU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5By1HrtrxM=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5By03rsTDU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5By1HrusHI=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5By03rsTDU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO5Ev56GRnYQ=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5Ev56GSX6I=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5Ev56GRnYQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5Ev56GTVk0=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5Ev56GRnYQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO5JbX8ryd40=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5JbX8rziL0=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5JbX8ryd40="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO5JbYMr0W/I=",
+										"_parent": {
+											"$ref": "AAAAAAFYO5JbX8ryd40="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwa5Y01gOq3g=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwa5Y01gPYRA=",
+										"_parent": {
+											"$ref": "AAAAAAFYwa5Y01gOq3g="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwa5Y01gQZt8=",
+										"_parent": {
+											"$ref": "AAAAAAFYwa5Y01gOq3g="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwbnd2qz+cPo=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsvOrEN3RBk="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbnd2qz/PPw=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbnd2qz+cPo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbnd2q0AHvw=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbnd2qz+cPo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYedGeTay5sNs="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYKtUMIFDDQM0=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "TableauPile",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGmy6Y="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYKttyGF3Aces=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Card",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK92h9tUYuOc=",
+									"_parent": {
+										"$ref": "AAAAAAFYKttyGF3Aces="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK92h9tUZXsk=",
+										"_parent": {
+											"$ref": "AAAAAAFYK92h9tUYuOc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK92h9tUa3Lc=",
+										"_parent": {
+											"$ref": "AAAAAAFYK92h9tUYuOc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGrfpE="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYKu+ILbcEypg=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "DrawPile",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGXa70="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYK9chi1Odf10=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Discard Pile",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGcYjA="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYK9fd4F20eZk=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Foundation",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGh2J0="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYK9vAM5z6Xuc=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Timer",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGzctw="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYK9xjGbTfYXw=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Score",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvzGvWjs="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYeiz0EVumUj0=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Pile",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwZzG8PSaqv8=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "uses",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwZzG8fSbvdY=",
+										"_parent": {
+											"$ref": "AAAAAAFYwZzG8PSaqv8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwZzG8fScd8M=",
+										"_parent": {
+											"$ref": "AAAAAAFYwZzG8PSaqv8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZr6b/M8n+Y="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwbv/RstZ+74=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "uses",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbv/RstaFg8=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbv/RstZ+74="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbv/RstbyuA=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbv/RstZ+74="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwbs3DcWoM9A="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQvRbBHhmVw=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "card",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQvRbBHizuk=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQvRbBHhmVw="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQvRbBHjMAs=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQvRbBHhmVw="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQv5/RKxEFw=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "card",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQv5/RKywBc=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQv5/RKxEFw="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQv5/hKzLkY=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQv5/RKxEFw="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQw5zxRIB9o=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "pilerules",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQw5zxRJprc=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQw5zxRIB9o="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQw5zxRK7oc=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQw5zxRIB9o="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZr6b/M8n+Y="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQxc/xXAPrY=",
+									"_parent": {
+										"$ref": "AAAAAAFYeiz0EVumUj0="
+									},
+									"name": "current score",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQxdABXBcJM=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQxc/xXAPrY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQxdABXCfi8=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQxc/xXAPrY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9xjGbTfYXw="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvjGQesw="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYei5yAlvth8M=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "GUIPIle",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": "",
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYgL1xbk8Bbv8=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "GUIGame",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYkq2gp7YpVcA="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYksA4wfcoIzA=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "PlayerActions",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYedS1crTYneY="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYwZr6b/M8n+Y=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "IValidateStrategy",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwb4/Qu6uRH4=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZr6b/M8n+Y="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwb4/Q+6v99c=",
+										"_parent": {
+											"$ref": "AAAAAAFYwb4/Qu6uRH4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZr6b/M8n+Y="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwb4/Q+6wnI8=",
+										"_parent": {
+											"$ref": "AAAAAAFYwb4/Qu6uRH4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYQVyS2qKoI80="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYwZ3ygAFdu00=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Player Actions",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaC1ygtdg8Q=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaC1ygteab8=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaC1ygtdg8Q="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaC1ygtfLxw=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaC1ygtdg8Q="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaJozxHyeRc=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"name": "copyDeck",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaJozxHzhlM=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaJozxHyeRc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaJo0BH0DDY=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaJozxHyeRc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaK+0BPFgGY=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaK+0BPGNOY=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaK+0BPFgGY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaK+0RPH+PM=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaK+0BPFgGY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaMk3BkG7v0=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaMk3RkHwLk=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaMk3BkG7v0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaMk3RkIl7s=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaMk3BkG7v0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaNxZxx4TB4=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaNxZxx5RiM=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaNxZxx4TB4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaNxZxx6XXw=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaNxZxx4TB4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwbQH6oFlavs=",
+									"_parent": {
+										"$ref": "AAAAAAFYwZ3ygAFdu00="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbQH6oFmPps=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbQH6oFlavs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYwZ3ygAFdu00="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwbQH6oFn048=",
+										"_parent": {
+											"$ref": "AAAAAAFYwbQH6oFlavs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYedS1crTYneY="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYwbs3DcWoM9A=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Pile Type",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYecE9e494tZA="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYxYEPSB6OPcY=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Player",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQrjTQ9jUk8=",
+									"_parent": {
+										"$ref": "AAAAAAFYxYEPSB6OPcY="
+									},
+									"name": "source",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQrjTQ9kGsY=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQrjTQ9jUk8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYxYEPSB6OPcY="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQrjTQ9lJfk=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQrjTQ9jUk8="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYzQuHHRBnoxs=",
+									"_parent": {
+										"$ref": "AAAAAAFYxYEPSB6OPcY="
+									},
+									"name": "destination",
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQuHHRBokYk=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQuHHRBnoxs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYxYEPSB6OPcY="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYzQuHHRBpUWM=",
+										"_parent": {
+											"$ref": "AAAAAAFYzQuHHRBnoxs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYxXqTfR1aLi4="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYKsmMkEM4NRg=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "Board",
+							"ownedElements": [
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYKs6QR0RaJ38=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKs6QR0RbWaY=",
+										"_parent": {
+											"$ref": "AAAAAAFYKs6QR0RaJ38="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKs6QR0RcDOk=",
+										"_parent": {
+											"$ref": "AAAAAAFYKs6QR0RaJ38="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYKt0qGmHh8YU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKt0qGmHigNk=",
+										"_parent": {
+											"$ref": "AAAAAAFYKt0qGmHh8YU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKt0qGmHjRJA=",
+										"_parent": {
+											"$ref": "AAAAAAFYKt0qGmHh8YU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYKu6+s41YW28=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKu6+s41ZeHY=",
+										"_parent": {
+											"$ref": "AAAAAAFYKu6+s41YW28="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKu6+s41aeDQ=",
+										"_parent": {
+											"$ref": "AAAAAAFYKu6+s41YW28="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYKvBj28dSfaM=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKvBj28dT2ts=",
+										"_parent": {
+											"$ref": "AAAAAAFYKvBj28dSfaM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYKvBj28dUzQI=",
+										"_parent": {
+											"$ref": "AAAAAAFYKvBj28dSfaM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK8B6DbEZ7jo=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8B6DbEagOc=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8B6DbEZ7jo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8B6DbEbKvM=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8B6DbEZ7jo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK8YCIg514e0=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8YCIg52gWw=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8YCIg514e0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8YCIg53POo=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8YCIg514e0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK8aIJx/yu4M=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8aIJx/zaUI=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8aIJx/yu4M="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK8aIJx/0ZEo=",
+										"_parent": {
+											"$ref": "AAAAAAFYK8aIJx/yu4M="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK9hc62xfqaE=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9hc62xgDZI=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9hc62xfqaE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9hc62xh0Z4=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9hc62xfqaE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK9+VCgURx/4=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9+VCwUSbl0=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9+VCgURx/4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK9+VCwUT1AA=",
+										"_parent": {
+											"$ref": "AAAAAAFYK9+VCgURx/4="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+AWByBLJC0=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+AWByBMW/4=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+AWByBLJC0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+AWByBNV1Q=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+AWByBLJC0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+CHqy/PSCM=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+CHqy/QFhI=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+CHqy/PSCM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+CHqy/Rbu8=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+CHqy/PSCM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+EnukX7VaY=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+EnukX8uAs=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+EnukX7VaY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+EnukX94Qw=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+EnukX7VaY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+F2/FJc6HQ=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+F2/VJdbQE=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+F2/FJc6HQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+F2/VJe1TE=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+F2/FJc6HQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9fd4F20eZk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+ICWGhIpQQ=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+ICWGhJzRU=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+ICWGhIpQQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+ICWGhKtfc=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+ICWGhIpQQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+LoGHZSiJQ=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+LoGHZT7p0=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+LoGHZSiJQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+LoGHZUGpE=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+LoGHZSiJQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+UuHtiFt0w=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+UuHtiGom8=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+UuHtiFt0w="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+UuHtiHiCo=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+UuHtiFt0w="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+WtKvdKg/M=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+WtKvdLoQE=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+WtKvdKg/M="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+WtKvdMbSs=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+WtKvdKg/M="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+Z3ERvt01s=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+Z3ERvugdQ=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+Z3ERvt01s="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+Z3ERvvOEI=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+Z3ERvt01s="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYK+cnCTzi214=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+cnCTzjMpU=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+cnCTzi214="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYK+cnCTzkup8=",
+										"_parent": {
+											"$ref": "AAAAAAFYK+cnCTzi214="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO4qab/ASfRs=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4qab/ATDVk=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4qab/ASfRs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4qab/AU4Js=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4qab/ASfRs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO4rh3Pb8iKs=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4rh3Pb9Z9Q=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4rh3Pb8iKs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4rh3Pb+SW8=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4rh3Pb8iKs="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO4vS2SVXA+E=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4vS2SVY7dM=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4vS2SVXA+E="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4vS2SVZowc=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4vS2SVXA+E="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO4x9jj5stUo=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4x9jj5tTS0=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4x9jj5stUo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO4x9jj5u65k=",
+										"_parent": {
+											"$ref": "AAAAAAFYO4x9jj5stUo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO46jXltZYHQ=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO46jXltavxo=",
+										"_parent": {
+											"$ref": "AAAAAAFYO46jXltZYHQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO46jXltbub4=",
+										"_parent": {
+											"$ref": "AAAAAAFYO46jXltZYHQ="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO+/j7AxaFcc=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO+/j7Axbp6A=",
+										"_parent": {
+											"$ref": "AAAAAAFYO+/j7AxaFcc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO+/j7Axc6bI=",
+										"_parent": {
+											"$ref": "AAAAAAFYO+/j7AxaFcc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/BuTB4KfOU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/BuTB4L830=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/BuTB4KfOU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/BuTB4MEC8=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/BuTB4KfOU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/GdeEKvj9A=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/GdeEKwX/s=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/GdeEKvj9A="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/GdeEKxIzQ=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/GdeEKvj9A="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/ImFV09zgc=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/ImFV0+GdU=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/ImFV09zgc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/ImFV0/Fic=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/ImFV09zgc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9fd4F20eZk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/NIEHvIrLY=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/NIEHvJH6c=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/NIEHvIrLY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/NIEHvKf28=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/NIEHvIrLY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/OLe4fr9BE=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/OLe4fsaHI=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/OLe4fr9BE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/OLe4ftdT8=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/OLe4fr9BE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/RxhpaBp3U=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/RxhpaCC3g=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/RxhpaBp3U="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/RxhpaDzyk=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/RxhpaBp3U="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/Ttt66Z7vI=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Ttt66a2rc=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Ttt66Z7vI="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Ttt66b4vY=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Ttt66Z7vI="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKu+ILbcEypg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/Uv17ylz1s=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Uv17ymztY=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Uv17ylz1s="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Uv17yn8uY=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Uv17ylz1s="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/Vutcv4H4w=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Vutsv5BX0=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Vutcv4H4w="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/Vutsv6yCk=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/Vutcv4H4w="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/cFMOunrvE=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/cFMOuoVBw=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/cFMOunrvE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/cFMOup02M=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/cFMOunrvE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/c2hfnUHWU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/c2hfnVV/0=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/c2hfnUHWU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/c2hfnWig8=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/c2hfnUHWU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9xjGbTfYXw="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/eDOwlUJTU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/eDOwlV2GI=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/eDOwlUJTU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/eDOwlWNYE=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/eDOwlUJTU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9chi1Odf10="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/gbuBkxWRM=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/gbuBkyKoo=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/gbuBkxWRM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/gbuBkzfSA=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/gbuBkxWRM="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKtUMIFDDQM0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/hKMClrc7A=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/hKMClsyrU=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/hKMClrc7A="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/hKMCltIdY=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/hKMClrc7A="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKttyGF3Aces="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/iedUWdkRU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/iedUWeD0s=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/iedUWdkRU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/iedUWfwN8=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/iedUWdkRU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9xjGbTfYXw="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYO/jXG1V9vHU=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/jXG1V+/XU=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/jXG1V9vHU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYO/jXG1V/sOA=",
+										"_parent": {
+											"$ref": "AAAAAAFYO/jXG1V9vHU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwZpl+fJjUz0=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwZpl+vJkuR4=",
+										"_parent": {
+											"$ref": "AAAAAAFYwZpl+fJjUz0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwZpl+vJljZM=",
+										"_parent": {
+											"$ref": "AAAAAAFYwZpl+fJjUz0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYeiz0EVumUj0="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaIPwRAz65Y=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaIPwRA0GjQ=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaIPwRAz65Y="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaIPwRA1m2Q=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaIPwRAz65Y="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsvOrEN3RBk="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaY39ziTqRc=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaY39ziUri8=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaY39ziTqRc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaY39ziVN/Q=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaY39ziTqRc="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9xjGbTfYXw="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaaJ4TuqYqo=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaaJ4TurlGk=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaaJ4TuqYqo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaaJ4Tusdks=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaaJ4TuqYqo="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								},
+								{
+									"_type": "UMLConnector",
+									"_id": "AAAAAAFYwaa86T8SNLY=",
+									"_parent": {
+										"$ref": "AAAAAAFYKsmMkEM4NRg="
+									},
+									"end1": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaa86T8TiVc=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaa86T8SNLY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYKsmMkEM4NRg="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLConnectorEnd",
+										"_id": "AAAAAAFYwaa86T8UOak=",
+										"_parent": {
+											"$ref": "AAAAAAFYwaa86T8SNLY="
+										},
+										"reference": {
+											"$ref": "AAAAAAFYK9vAM5z6Xuc="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"kind": "assembly"
+								}
+							],
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFX+MUtvjF7e4s="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						}
+					],
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false,
+					"isIndirectlyInstantiated": true
 				}
 			],
 			"documentation": "This Communication Diagram represents the board's interactions between each of the objects in the Solitaire game. The board is responsible for the creation of Deck, DrawPile, TableauPile, DiscardPile, and Foundation Pile. Deck creates all cards to be stored in itself. The board manages the Timer and Score of the current game. ",
 			"visibility": "public",
-			"attributes": [
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYKsmMkEM4NRg=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Board",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYKs6QR0RaJ38=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKs6QR0RbWaY=",
-								"_parent": {
-									"$ref": "AAAAAAFYKs6QR0RaJ38="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKs6QR0RcDOk=",
-								"_parent": {
-									"$ref": "AAAAAAFYKs6QR0RaJ38="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYKt0qGmHh8YU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKt0qGmHigNk=",
-								"_parent": {
-									"$ref": "AAAAAAFYKt0qGmHh8YU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKt0qGmHjRJA=",
-								"_parent": {
-									"$ref": "AAAAAAFYKt0qGmHh8YU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYKu6+s41YW28=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKu6+s41ZeHY=",
-								"_parent": {
-									"$ref": "AAAAAAFYKu6+s41YW28="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKu6+s41aeDQ=",
-								"_parent": {
-									"$ref": "AAAAAAFYKu6+s41YW28="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYKvBj28dSfaM=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKvBj28dT2ts=",
-								"_parent": {
-									"$ref": "AAAAAAFYKvBj28dSfaM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKvBj28dUzQI=",
-								"_parent": {
-									"$ref": "AAAAAAFYKvBj28dSfaM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK8B6DbEZ7jo=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8B6DbEagOc=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8B6DbEZ7jo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8B6DbEbKvM=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8B6DbEZ7jo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK8YCIg514e0=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8YCIg52gWw=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8YCIg514e0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8YCIg53POo=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8YCIg514e0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK8aIJx/yu4M=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8aIJx/zaUI=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8aIJx/yu4M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8aIJx/0ZEo=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8aIJx/yu4M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK9hc62xfqaE=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9hc62xgDZI=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9hc62xfqaE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9hc62xh0Z4=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9hc62xfqaE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK9+VCgURx/4=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9+VCwUSbl0=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9+VCgURx/4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9+VCwUT1AA=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9+VCgURx/4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+AWByBLJC0=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+AWByBMW/4=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+AWByBLJC0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+AWByBNV1Q=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+AWByBLJC0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+CHqy/PSCM=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+CHqy/QFhI=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+CHqy/PSCM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+CHqy/Rbu8=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+CHqy/PSCM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+EnukX7VaY=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+EnukX8uAs=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+EnukX7VaY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+EnukX94Qw=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+EnukX7VaY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+F2/FJc6HQ=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+F2/VJdbQE=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+F2/FJc6HQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+F2/VJe1TE=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+F2/FJc6HQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9fd4F20eZk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+ICWGhIpQQ=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+ICWGhJzRU=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+ICWGhIpQQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+ICWGhKtfc=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+ICWGhIpQQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+LoGHZSiJQ=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+LoGHZT7p0=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+LoGHZSiJQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+LoGHZUGpE=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+LoGHZSiJQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+UuHtiFt0w=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+UuHtiGom8=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+UuHtiFt0w="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+UuHtiHiCo=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+UuHtiFt0w="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+WtKvdKg/M=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+WtKvdLoQE=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+WtKvdKg/M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+WtKvdMbSs=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+WtKvdKg/M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+Z3ERvt01s=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+Z3ERvugdQ=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+Z3ERvt01s="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+Z3ERvvOEI=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+Z3ERvt01s="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK+cnCTzi214=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+cnCTzjMpU=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+cnCTzi214="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK+cnCTzkup8=",
-								"_parent": {
-									"$ref": "AAAAAAFYK+cnCTzi214="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO4qab/ASfRs=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4qab/ATDVk=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4qab/ASfRs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4qab/AU4Js=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4qab/ASfRs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO4rh3Pb8iKs=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4rh3Pb9Z9Q=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4rh3Pb8iKs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4rh3Pb+SW8=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4rh3Pb8iKs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO4vS2SVXA+E=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4vS2SVY7dM=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4vS2SVXA+E="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4vS2SVZowc=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4vS2SVXA+E="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO4x9jj5stUo=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4x9jj5tTS0=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4x9jj5stUo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO4x9jj5u65k=",
-								"_parent": {
-									"$ref": "AAAAAAFYO4x9jj5stUo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO46jXltZYHQ=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO46jXltavxo=",
-								"_parent": {
-									"$ref": "AAAAAAFYO46jXltZYHQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO46jXltbub4=",
-								"_parent": {
-									"$ref": "AAAAAAFYO46jXltZYHQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO+/j7AxaFcc=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO+/j7Axbp6A=",
-								"_parent": {
-									"$ref": "AAAAAAFYO+/j7AxaFcc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO+/j7Axc6bI=",
-								"_parent": {
-									"$ref": "AAAAAAFYO+/j7AxaFcc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/BuTB4KfOU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/BuTB4L830=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/BuTB4KfOU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/BuTB4MEC8=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/BuTB4KfOU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/GdeEKvj9A=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/GdeEKwX/s=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/GdeEKvj9A="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/GdeEKxIzQ=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/GdeEKvj9A="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/ImFV09zgc=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/ImFV0+GdU=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/ImFV09zgc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/ImFV0/Fic=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/ImFV09zgc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9fd4F20eZk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/NIEHvIrLY=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/NIEHvJH6c=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/NIEHvIrLY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/NIEHvKf28=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/NIEHvIrLY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/OLe4fr9BE=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/OLe4fsaHI=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/OLe4fr9BE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/OLe4ftdT8=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/OLe4fr9BE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/RxhpaBp3U=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/RxhpaCC3g=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/RxhpaBp3U="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/RxhpaDzyk=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/RxhpaBp3U="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/Ttt66Z7vI=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Ttt66a2rc=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Ttt66Z7vI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Ttt66b4vY=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Ttt66Z7vI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKu+ILbcEypg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/Uv17ylz1s=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Uv17ymztY=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Uv17ylz1s="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Uv17yn8uY=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Uv17ylz1s="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/Vutcv4H4w=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Vutsv5BX0=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Vutcv4H4w="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/Vutsv6yCk=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/Vutcv4H4w="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/cFMOunrvE=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/cFMOuoVBw=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/cFMOunrvE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/cFMOup02M=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/cFMOunrvE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/c2hfnUHWU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/c2hfnVV/0=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/c2hfnUHWU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/c2hfnWig8=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/c2hfnUHWU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9xjGbTfYXw="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/eDOwlUJTU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/eDOwlV2GI=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/eDOwlUJTU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/eDOwlWNYE=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/eDOwlUJTU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9chi1Odf10="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/gbuBkxWRM=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/gbuBkyKoo=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/gbuBkxWRM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/gbuBkzfSA=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/gbuBkxWRM="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKtUMIFDDQM0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/hKMClrc7A=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/hKMClsyrU=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/hKMClrc7A="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/hKMCltIdY=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/hKMClrc7A="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/iedUWdkRU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/iedUWeD0s=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/iedUWdkRU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/iedUWfwN8=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/iedUWdkRU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9xjGbTfYXw="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO/jXG1V9vHU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/jXG1V+/XU=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/jXG1V9vHU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO/jXG1V/sOA=",
-								"_parent": {
-									"$ref": "AAAAAAFYO/jXG1V9vHU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwZpl+fJjUz0=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwZpl+vJkuR4=",
-								"_parent": {
-									"$ref": "AAAAAAFYwZpl+fJjUz0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwZpl+vJljZM=",
-								"_parent": {
-									"$ref": "AAAAAAFYwZpl+fJjUz0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaIPwRAz65Y=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaIPwRA0GjQ=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaIPwRAz65Y="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaIPwRA1m2Q=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaIPwRAz65Y="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaY39ziTqRc=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaY39ziUri8=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaY39ziTqRc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaY39ziVN/Q=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaY39ziTqRc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9xjGbTfYXw="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaaJ4TuqYqo=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaaJ4TurlGk=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaaJ4TuqYqo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaaJ4Tusdks=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaaJ4TuqYqo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaa86T8SNLY=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsmMkEM4NRg="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaa86T8TiVc=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaa86T8SNLY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaa86T8UOak=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaa86T8SNLY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9vAM5z6Xuc="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvjF7e4s="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYKsvOrEN3RBk=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Deck",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYKs/5nUZU3pE=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKs/5nUZVpfY=",
-								"_parent": {
-									"$ref": "AAAAAAFYKs/5nUZU3pE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYKs/5nUZWWkQ=",
-								"_parent": {
-									"$ref": "AAAAAAFYKs/5nUZU3pE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK8E7VbmlIM4=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8E7Vbmmttg=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8E7VbmlIM4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8E7VbmnOP0=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8E7VbmlIM4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK8Ip1cfHizU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8Ip1sfIpDc=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8Ip1cfHizU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK8Ip1sfJoKc=",
-								"_parent": {
-									"$ref": "AAAAAAFYK8Ip1cfHizU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK9ztcscg8O8=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9ztcschy1Q=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9ztcscg8O8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK9ztcscimgE=",
-								"_parent": {
-									"$ref": "AAAAAAFYK9ztcscg8O8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO5By03rsTDU=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5By1HrtrxM=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5By03rsTDU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5By1HrusHI=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5By03rsTDU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO5Ev56GRnYQ=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5Ev56GSX6I=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5Ev56GRnYQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5Ev56GTVk0=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5Ev56GRnYQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYO5JbX8ryd40=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5JbX8rziL0=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5JbX8ryd40="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYO5JbYMr0W/I=",
-								"_parent": {
-									"$ref": "AAAAAAFYO5JbX8ryd40="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwa5Y01gOq3g=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwa5Y01gPYRA=",
-								"_parent": {
-									"$ref": "AAAAAAFYwa5Y01gOq3g="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwa5Y01gQZt8=",
-								"_parent": {
-									"$ref": "AAAAAAFYwa5Y01gOq3g="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwbnd2qz+cPo=",
-							"_parent": {
-								"$ref": "AAAAAAFYKsvOrEN3RBk="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbnd2qz/PPw=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbnd2qz+cPo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbnd2q0AHvw=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbnd2qz+cPo="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYedGeTay5sNs="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYKtUMIFDDQM0=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "TableauPile",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGmy6Y="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYKttyGF3Aces=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Card",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYK92h9tUYuOc=",
-							"_parent": {
-								"$ref": "AAAAAAFYKttyGF3Aces="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK92h9tUZXsk=",
-								"_parent": {
-									"$ref": "AAAAAAFYK92h9tUYuOc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYK92h9tUa3Lc=",
-								"_parent": {
-									"$ref": "AAAAAAFYK92h9tUYuOc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGrfpE="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYKu+ILbcEypg=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "DrawPile",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGXa70="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYK9chi1Odf10=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Discard Pile",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGcYjA="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYK9fd4F20eZk=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Foundation",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGh2J0="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYK9vAM5z6Xuc=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Timer",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGzctw="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYK9xjGbTfYXw=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Score",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvzGvWjs="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYeiz0EVumUj0=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Pile",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwZzG8PSaqv8=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "uses",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwZzG8fSbvdY=",
-								"_parent": {
-									"$ref": "AAAAAAFYwZzG8PSaqv8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwZzG8fScd8M=",
-								"_parent": {
-									"$ref": "AAAAAAFYwZzG8PSaqv8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZr6b/M8n+Y="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwbv/RstZ+74=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "uses",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbv/RstaFg8=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbv/RstZ+74="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbv/RstbyuA=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbv/RstZ+74="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwbs3DcWoM9A="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQvRbBHhmVw=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "card",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQvRbBHizuk=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQvRbBHhmVw="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQvRbBHjMAs=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQvRbBHhmVw="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQv5/RKxEFw=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "card",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQv5/RKywBc=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQv5/RKxEFw="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQv5/hKzLkY=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQv5/RKxEFw="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQw5zxRIB9o=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "pilerules",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQw5zxRJprc=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQw5zxRIB9o="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQw5zxRK7oc=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQw5zxRIB9o="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZr6b/M8n+Y="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQxc/xXAPrY=",
-							"_parent": {
-								"$ref": "AAAAAAFYeiz0EVumUj0="
-							},
-							"name": "current score",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQxdABXBcJM=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQxc/xXAPrY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQxdABXCfi8=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQxc/xXAPrY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYK9xjGbTfYXw="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFX+MUtvjGQesw="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYei5yAlvth8M=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "GUIPIle",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": "",
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYgL1xbk8Bbv8=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "GUIGame",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYkq2gp7YpVcA="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYksA4wfcoIzA=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "PlayerActions",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYedS1crTYneY="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYwZr6b/M8n+Y=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "IValidateStrategy",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwb4/Qu6uRH4=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZr6b/M8n+Y="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwb4/Q+6v99c=",
-								"_parent": {
-									"$ref": "AAAAAAFYwb4/Qu6uRH4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZr6b/M8n+Y="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwb4/Q+6wnI8=",
-								"_parent": {
-									"$ref": "AAAAAAFYwb4/Qu6uRH4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYQVyS2qKoI80="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYwZ3ygAFdu00=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Player Actions",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaC1ygtdg8Q=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaC1ygteab8=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaC1ygtdg8Q="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaC1ygtfLxw=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaC1ygtdg8Q="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsvOrEN3RBk="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaJozxHyeRc=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"name": "copyDeck",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaJozxHzhlM=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaJozxHyeRc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaJo0BH0DDY=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaJozxHyeRc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaK+0BPFgGY=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaK+0BPGNOY=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaK+0BPFgGY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaK+0RPH+PM=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaK+0BPFgGY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKsmMkEM4NRg="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaMk3BkG7v0=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaMk3RkHwLk=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaMk3BkG7v0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaMk3RkIl7s=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaMk3BkG7v0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwaNxZxx4TB4=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaNxZxx5RiM=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaNxZxx4TB4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwaNxZxx6XXw=",
-								"_parent": {
-									"$ref": "AAAAAAFYwaNxZxx4TB4="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYwbQH6oFlavs=",
-							"_parent": {
-								"$ref": "AAAAAAFYwZ3ygAFdu00="
-							},
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbQH6oFmPps=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbQH6oFlavs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYwZ3ygAFdu00="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYwbQH6oFn048=",
-								"_parent": {
-									"$ref": "AAAAAAFYwbQH6oFlavs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYKttyGF3Aces="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYedS1crTYneY="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYwbs3DcWoM9A=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Pile Type",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYecE9e494tZA="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				},
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFYxYEPSB6OPcY=",
-					"_parent": {
-						"$ref": "AAAAAAFYKslXZkL50eM="
-					},
-					"name": "Player",
-					"ownedElements": [
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQrjTQ9jUk8=",
-							"_parent": {
-								"$ref": "AAAAAAFYxYEPSB6OPcY="
-							},
-							"name": "source",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQrjTQ9kGsY=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQrjTQ9jUk8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYxYEPSB6OPcY="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQrjTQ9lJfk=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQrjTQ9jUk8="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						},
-						{
-							"_type": "UMLConnector",
-							"_id": "AAAAAAFYzQuHHRBnoxs=",
-							"_parent": {
-								"$ref": "AAAAAAFYxYEPSB6OPcY="
-							},
-							"name": "destination",
-							"end1": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQuHHRBokYk=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQuHHRBnoxs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYxYEPSB6OPcY="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLConnectorEnd",
-								"_id": "AAAAAAFYzQuHHRBpUWM=",
-								"_parent": {
-									"$ref": "AAAAAAFYzQuHHRBnoxs="
-								},
-								"reference": {
-									"$ref": "AAAAAAFYeiz0EVumUj0="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"kind": "assembly"
-						}
-					],
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"type": {
-						"$ref": "AAAAAAFYxXqTfR1aLi4="
-					},
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				}
-			],
 			"isAbstract": false,
 			"isFinalSpecialization": false,
 			"isLeaf": false
