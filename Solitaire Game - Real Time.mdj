@@ -14480,7 +14480,7 @@
 					"isAbstract": true,
 					"isFinalSpecialization": false,
 					"isLeaf": false,
-					"isActive": false
+					"isActive": true
 				},
 				{
 					"_type": "UMLClass",
@@ -15003,7 +15003,7 @@
 					"isAbstract": false,
 					"isFinalSpecialization": false,
 					"isLeaf": false,
-					"isActive": false
+					"isActive": true
 				},
 				{
 					"_type": "UMLClass",
@@ -15148,7 +15148,7 @@
 					"isAbstract": false,
 					"isFinalSpecialization": false,
 					"isLeaf": false,
-					"isActive": false
+					"isActive": true
 				},
 				{
 					"_type": "UMLClass",
@@ -15259,7 +15259,7 @@
 					"isAbstract": false,
 					"isFinalSpecialization": false,
 					"isLeaf": false,
-					"isActive": false
+					"isActive": true
 				},
 				{
 					"_type": "UMLClass",
@@ -39971,6 +39971,7 @@
 					]
 				}
 			],
+			"documentation": "Package that holds all the state machine diagrams for the Solitaire game. Only the real-time objects that are \"active\" in the class diagram are represented here with states. ",
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecialization": false,
