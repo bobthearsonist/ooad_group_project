@@ -26014,7 +26014,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "player: Player",
+													"text": "player",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30581,26 +30581,6 @@
 						},
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAFYgL1xbk8Bbv8=",
-							"_parent": {
-								"$ref": "AAAAAAFYzREvhzlQEoc="
-							},
-							"name": "GUIGame",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"type": {
-								"$ref": "AAAAAAFYkq2gp7YpVcA="
-							},
-							"isReadOnly": false,
-							"isOrdered": false,
-							"isUnique": false,
-							"isDerived": false,
-							"aggregation": "none",
-							"isID": false
-						},
-						{
-							"_type": "UMLAttribute",
 							"_id": "AAAAAAFYksA4wfcoIzA=",
 							"_parent": {
 								"$ref": "AAAAAAFYzREvhzlQEoc="
@@ -30981,6 +30961,26 @@
 						},
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAFYgL1xbk8Bbv8=",
+							"_parent": {
+								"$ref": "AAAAAAFYzREvhzlQEoc="
+							},
+							"name": "GUIGame",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFYkq2gp7YpVcA="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAFYwbs3DcWoM9A=",
 							"_parent": {
 								"$ref": "AAAAAAFYzREvhzlQEoc="
@@ -31103,9 +31103,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": {
-								"$ref": "AAAAAAFYxXqTfR1aLi4="
-							},
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
